@@ -58,7 +58,6 @@ const placeOrder = async (req, res) => {
         res.json({success:false,message:"Error"})
     }
 }    
-
 const verifyOrder = async (req,res) => {
     const {orderId,success} = req.query;
     try {
